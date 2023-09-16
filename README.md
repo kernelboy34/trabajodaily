@@ -26,5 +26,4 @@ Validacion: La pagina web esta validada para evitar diferentes errores que pueda
 <h2>Diagrama de clases</h2>
 <img src="https://cdn.discordapp.com/attachments/938285632030118009/1152640868461854893/IMG-20230916-WA0035.jpg">
 
-<h2>Descripcion y Funcionamiento</h2>
-*FALTA*
+
