@@ -21,5 +21,5 @@ Datos: La web maneja 3 datos importantes: Estudiantes, Asignatura y Notas. Cada 
 Validacion: La pagina web esta validada para evitar diferentes errores que puedan afectar el resultado o su misma base de datos.
 
 <h2>Diagrama de la Base de datos</h2>
-![base](https://github.com/kernelboy34/trabajodaily/assets/113034611/e1d022e6-1b40-4284-ad68-e2f633947679)
+<img src="https://media.discordapp.net/attachments/938285632030118009/1152431247860187156/base.png?width=923&height=587">
 
