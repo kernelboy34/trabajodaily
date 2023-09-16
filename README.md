@@ -28,6 +28,3 @@ Validacion: La pagina web esta validada para evitar diferentes errores que pueda
 
 <h2>Descripcion y Funcionamiento</h2>
 *FALTA*
-
-<h2>Descripcion y Funcionamiento</h2>
-*FALTA*
