@@ -23,3 +23,8 @@ Validacion: La pagina web esta validada para evitar diferentes errores que pueda
 <h2>Diagrama de la Base de datos</h2>
 <img src="https://media.discordapp.net/attachments/938285632030118009/1152431247860187156/base.png?width=923&height=587">
 
+<h2>Diagrama de clases</h2>
+*FALTA*
+
+<h2>Descripcion y Funcionamiento</h2>
+*FALTA*
