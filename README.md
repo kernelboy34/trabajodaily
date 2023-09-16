@@ -19,3 +19,7 @@ Herramientas integradas: El proyecto usa Entity FrameWork y Razor Pages para la 
 Datos: La web maneja 3 datos importantes: Estudiantes, Asignatura y Notas. Cada uno tendra sus propios campos los cuales seran usados al mostrar con un buscador dinamico los diferentes datos del estudiante ya completamente registrado.
 
 Validacion: La pagina web esta validada para evitar diferentes errores que puedan afectar el resultado o su misma base de datos.
+
+<h2>Diagrama de la Base de datos</h2>
+![base](https://github.com/kernelboy34/trabajodaily/assets/113034611/e1d022e6-1b40-4284-ad68-e2f633947679)
+
