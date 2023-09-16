@@ -1,0 +1,26 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+#fonditor{
+    background-color:red;
+    color:antiquewhite;
+    border-radius:23pc;
+    text-align:center;
+    width:fit-content;
+    padding-inline:23px;
+}

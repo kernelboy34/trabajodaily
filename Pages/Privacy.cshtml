@@ -1,0 +1,20 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Cardiff university";
+}
+<marquee><h1 id="fonditor">@ViewData["Title"]</h1></marquee>
+<div class="container">
+    <h1>Registro de Notas</h1>
+    <form method="post">
+        <div class="form-group">
+            <label for="materia">Materia:</label>
+            <input type="text" class="form-control" id="materia" name="Materia" placeholder="Ingrese la materia" required>
+        </div>
+        <div class="form-group">
+            <label for="nota">Nota:</label>
+            <input type="number" class="form-control" id="nota" name="Nota" placeholder="Ingrese la nota" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar Nota</button>
+    </form>
+</div>

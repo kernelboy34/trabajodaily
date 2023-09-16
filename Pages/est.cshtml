@@ -1,0 +1,38 @@
+﻿@page
+@model follows.Pages.estModel
+@{
+    ViewData["Title"] = "est";
+}
+
+<h1 id="fonditor">estudiante registro</h1>
+
+<h4>Class cardiff 2023</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Class.Name" class="control-label"></label>
+                <input asp-for="Class.Name" id="nom" class="form-control" />
+                <span asp-validation-for="Class.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Class.course" class="control-label"></label>
+                <input asp-for="Class.course" id="cur" class="form-control" />
+                <span asp-validation-for="Class.course" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

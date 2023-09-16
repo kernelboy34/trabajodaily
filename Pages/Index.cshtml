@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+<div class="text-center">
+    <h1 class="display-4">universidad de cardiff</h1>
+    <img src="https://www.descubriruk.com/wp-content/uploads/2015/08/Universidad-de-Cardiff.jpg"/>
+    <p>bienvenido si ves esto fuiste seleccionado para la beca chevening para la universidad de cardiff en e reino unido de parte de todo el personal te damos una amena bienvenida</p>
+    <img src="https://www.corecommunique.com/wp-content/uploads/2020/09/Chevening_960.640.png"/>
+    <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            @for (int i = 0; i < 4; i++)
+            {
+                <li data-target="#carouselExampleIndicators" data-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+            }
+        </ol>
+        <div class="carousel-inner">
+            @for (int i = 0; i < 4; i++)
+            {
+                Something teodio = new Something();
+                var active = i == 0 ? "active" : "";
+                <div class="carousel-item @active">
+                    <img class="d-block w-100" src="~/image/@teodio.titulo[i].@teodio.formato" alt="@teodio.titulo[i]">
+                </div>
+            }
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+        <style>
+            .custom-carousel {
+                max-width: 500px; 
+                margin: 0 auto; 
+            }
+        </style>
+
+    <h2>Integrantes del equipo</h2>
+    <ul>
+        <li>Elvis trujillano canaza</li>
+        <li>Ivan bernardo pedrazas rogriguez</li>
+        <li>Joaquin cusicanqui adaros</li>
+        <li>Miguel eduardo choque valdez</li>
+    </ul>
+</div>
