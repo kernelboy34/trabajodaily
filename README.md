@@ -2,7 +2,7 @@
 <p>Programación Web III</p>
 <p>Practica 3 - Registro de Notas</p>
 Desarrolladores: 
-  -Ivan Bernardo Pedrazas Rodriguez
+   kernel
   -Joaquin Alejandro Cusicanqui Adaros
   -Miguel Eduardo Choque Valdez
   -Elvis Trujillano Canaza
