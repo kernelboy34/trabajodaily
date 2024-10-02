@@ -5,7 +5,6 @@ Desarrolladores:
    kernel
   -Joaquin Alejandro Cusicanqui Adaros
   -Miguel Eduardo Choque Valdez
-  -Elvis Trujillano Canaza
 Pagina
 <h2>Grupo: LEAD HOT CODERS</h2>
 <h1>Metodologia de Trabajo</h1>
